@@ -36,6 +36,9 @@ main{
 #second_button{
     color: rgb(136, 132, 132);
 }
+.none_ul{
+    list-style-type: none;
+}
 .done::before{
     content: '\2714';
     border: 1px solid green;
