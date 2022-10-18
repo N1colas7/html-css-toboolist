@@ -32,9 +32,15 @@ main{
 #first_button{
     color: white;
     background-color: #1d8ea5;
+    border: none;
+    padding: 5px;
+    border-radius: 10%;
 }
 #second_button{
     color: rgb(136, 132, 132);
+    border: none;
+    padding: 5px;
+    border-radius: 10%;
 }
 .none_ul{
     list-style-type: none;
@@ -48,12 +54,41 @@ main{
     font-size: 15px;
     margin-right: 10px;
     padding: 5px;
-
 }
-.blue_bar{
-    background-color: #1d8ea5;;
-    color: white;
+.undone::before{
+    content: '\2718';
+    border: 1px solid red;
+    border-radius: 70%;
+    font-size: 100px;
+    color: red;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 5px;
+}    
+li{
+    margin-bottom: 10px;
+}
+.bar{
     height:20px;
     padding: 5px;
-    border-radius: 10px
+    border-radius: 10px;
+    color: white;
+}
+.blue{
+    background-color: #1d8ea5;;
+}
+.green{
+    background-color: #26c569;;
+}
+.violet{
+    background-color: #941694;;
+}
+.orange{
+    background-color: #a5531d;;
+}
+.rose{
+    background-color: #cc2d9c;;
+}
+.yellow{
+    background-color: goldenrod;;
 }
