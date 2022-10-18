@@ -9,10 +9,10 @@ h1{
 }
 /*main*/
 main{
-    background-color: rgb(109, 102, 102);
+    background-color: rgb(241 241 241);
 }
 #container{
-    background-color: rgb(109, 102, 102);
+    background-color:rgb(241 241 241);
     margin-top: 50px;
     margin-bottom: 50px;
     margin-right: 250px;
@@ -31,8 +31,26 @@ main{
 }
 #first_button{
     color: white;
-    background-color: rgb(40, 40, 245);
+    background-color: #1d8ea5;
 }
 #second_button{
     color: rgb(136, 132, 132);
+}
+.done::before{
+    content: '\2714';
+    border: 1px solid green;
+    border-radius: 70%;
+    font-size: 100px;
+    color: green;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 5px;
+
+}
+.blue_bar{
+    background-color: #1d8ea5;;
+    color: white;
+    height:20px;
+    padding: 5px;
+    border-radius: 10px
 }
