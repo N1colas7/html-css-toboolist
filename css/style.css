@@ -32,9 +32,9 @@ main{
 #first_button{
     color: white;
     background-color: #1d8ea5;
-    border: none;
+    border:solid 1px;
     padding: 5px;
-    border-radius: 10%;
+    border-radius: 5px;
 }
 #second_button{
     color: rgb(136, 132, 132);
